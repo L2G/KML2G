@@ -49,6 +49,11 @@
 
 #import "KML2GViewController.h"
 
+// Constants
+#define BUTTON_SEGMENT_MAP 0
+#define BUTTON_SEGMENT_SAT 1
+#define BUTTON_SEGMENT_HYB 2
+
 @implementation KML2GViewController
 
 - (void)viewDidLoad
@@ -93,12 +98,36 @@
     
     // Position the map so that all overlays and annotations are visible on screen.
     map.visibleMapRect = flyTo;
+    
+    // Register button select events
+    [buttonBar addTarget:self action:@selector(buttonBarChanged:)
+               forControlEvents:UIControlEventValueChanged];
 }
 
+- (void)buttonBarChanged:(UISegmentedControl *)sender {
+    switch (sender.selectedSegmentIndex) {
+        case BUTTON_SEGMENT_MAP:
+            map.mapType = MKMapTypeStandard;
+            break;
+            
+        case BUTTON_SEGMENT_SAT:
+            map.mapType = MKMapTypeSatellite;
+            break;
+            
+        case BUTTON_SEGMENT_HYB:
+            map.mapType = MKMapTypeHybrid;
+            break;
+            
+        default:
+            break;
+    }
+}
 
 - (void)viewDidUnload
 {
     [kmlParser release];
+    [buttonBar release];
+    buttonBar = nil;
     [super viewDidUnload];
 }
 
@@ -118,4 +147,8 @@
     return [kmlParser viewForAnnotation:annotation];
 }
 
+- (void)dealloc {
+    [buttonBar release];
+    [super dealloc];
+}
 @end

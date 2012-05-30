@@ -272,6 +272,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "KML2G-Info.plist";
 				PRODUCT_NAME = KML2G;
+				VERSIONING_SYSTEM = "";
 			};
 			name = Debug;
 		};
@@ -290,6 +291,7 @@
 				INFOPLIST_FILE = "KML2G-Info.plist";
 				PRODUCT_NAME = KML2G;
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "";
 			};
 			name = Release;
 		};

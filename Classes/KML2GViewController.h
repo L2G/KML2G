@@ -54,6 +54,7 @@
 
 @interface KML2GViewController : UIViewController {
     IBOutlet MKMapView *map;
+    IBOutlet UISegmentedControl *buttonBar;
     KMLParser *kmlParser;
 }
 
