@@ -10,13 +10,13 @@
 		1A4B76FB11907DD600940A50 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4B76FA11907DD600940A50 /* MapKit.framework */; };
 		1A4B770A11907E0300940A50 /* KMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4B770911907E0300940A50 /* KMLParser.m */; };
 		1A4B77311190911400940A50 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4B77301190911400940A50 /* CoreLocation.framework */; };
-		1D3623260D0F684500981E51 /* KMLViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* KMLViewerAppDelegate.m */; };
+		1D3623260D0F684500981E51 /* KML2GAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* KML2GAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		28D7ACF80DDB3853001CB0EB /* KMLViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* KMLViewerViewController.m */; };
-		533ECC0B11F63EA00067A265 /* KMLViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 533ECC0711F63EA00067A265 /* KMLViewerViewController.xib */; };
+		28D7ACF80DDB3853001CB0EB /* KML2GViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* KML2GViewController.m */; };
+		533ECC0B11F63EA00067A265 /* KML2GViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 533ECC0711F63EA00067A265 /* KML2GViewController.xib */; };
 		533ECC0C11F63EA00067A265 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 533ECC0911F63EA00067A265 /* MainWindow.xib */; };
 		535BE74414B7C82C00969FF3 /* KML_Sample.kml in Resources */ = {isa = PBXBuildFile; fileRef = 535BE74314B7C82C00969FF3 /* KML_Sample.kml */; };
 		5398E9ED11F640E0002BFB95 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5398E9E611F640E0002BFB95 /* Icon-72.png */; };
@@ -34,16 +34,16 @@
 		1A4B770911907E0300940A50 /* KMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLParser.m; sourceTree = "<group>"; };
 		1A4B77301190911400940A50 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* KMLViewerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLViewerAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* KMLViewerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLViewerAppDelegate.m; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* KML2GAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KML2GAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1D3623250D0F684500981E51 /* KML2GAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = KML2GAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		1D6058910D05DD3D006BFB54 /* KML2G.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KML2G.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28D7ACF60DDB3853001CB0EB /* KMLViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLViewerViewController.h; sourceTree = "<group>"; };
-		28D7ACF70DDB3853001CB0EB /* KMLViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLViewerViewController.m; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* KML2GViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KML2GViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		28D7ACF70DDB3853001CB0EB /* KML2GViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KML2GViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* KML2G_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KML2G_Prefix.pch; sourceTree = "<group>"; };
-		533ECC0811F63EA00067A265 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KMLViewerViewController.xib; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* KML2G_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KML2G_Prefix.pch; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		533ECC0811F63EA00067A265 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KML2GViewController.xib; sourceTree = "<group>"; };
 		533ECC0A11F63EA00067A265 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		535BE74314B7C82C00969FF3 /* KML_Sample.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KML_Sample.kml; sourceTree = "<group>"; };
 		5398E9E611F640E0002BFB95 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
@@ -76,10 +76,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1D3623240D0F684500981E51 /* KMLViewerAppDelegate.h */,
-				1D3623250D0F684500981E51 /* KMLViewerAppDelegate.m */,
-				28D7ACF60DDB3853001CB0EB /* KMLViewerViewController.h */,
-				28D7ACF70DDB3853001CB0EB /* KMLViewerViewController.m */,
+				1D3623240D0F684500981E51 /* KML2GAppDelegate.h */,
+				1D3623250D0F684500981E51 /* KML2GAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* KML2GViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* KML2GViewController.m */,
 				1A4B770811907E0300940A50 /* KMLParser.h */,
 				1A4B770911907E0300940A50 /* KMLParser.m */,
 			);
@@ -120,7 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				5398E9E511F640E0002BFB95 /* images */,
-				533ECC0711F63EA00067A265 /* KMLViewerViewController.xib */,
+				533ECC0711F63EA00067A265 /* KML2GViewController.xib */,
 				533ECC0911F63EA00067A265 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* KML2G-Info.plist */,
 				535BE74314B7C82C00969FF3 /* KML_Sample.kml */,
@@ -170,7 +170,7 @@
 			dependencies = (
 			);
 			name = KML2G;
-			productName = KMLViewer;
+			productName = KML2G;
 			productReference = 1D6058910D05DD3D006BFB54 /* KML2G.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -207,7 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				533ECC0B11F63EA00067A265 /* KMLViewerViewController.xib in Resources */,
+				533ECC0B11F63EA00067A265 /* KML2GViewController.xib in Resources */,
 				533ECC0C11F63EA00067A265 /* MainWindow.xib in Resources */,
 				5398E9ED11F640E0002BFB95 /* Icon-72.png in Resources */,
 				5398E9EE11F640E0002BFB95 /* Icon-Small-50.png in Resources */,
@@ -228,8 +228,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* KMLViewerAppDelegate.m in Sources */,
-				28D7ACF80DDB3853001CB0EB /* KMLViewerViewController.m in Sources */,
+				1D3623260D0F684500981E51 /* KML2GAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* KML2GViewController.m in Sources */,
 				1A4B770A11907E0300940A50 /* KMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,12 +237,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		533ECC0711F63EA00067A265 /* KMLViewerViewController.xib */ = {
+		533ECC0711F63EA00067A265 /* KML2GViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				533ECC0811F63EA00067A265 /* en */,
 			);
-			name = KMLViewerViewController.xib;
+			name = KML2GViewController.xib;
 			sourceTree = "<group>";
 		};
 		533ECC0911F63EA00067A265 /* MainWindow.xib */ = {

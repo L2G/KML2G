@@ -1,7 +1,7 @@
 /*
-     File: KMLViewerAppDelegate.h
+     File: KML2GAppDelegate.h
  Abstract: 
- Delegate for the application.  Simply sets up the KMLViewerViewController in a window.
+ Delegate for the application.  Simply sets up the KML2GViewController in a window.
  
   Version: 1.3
  
@@ -49,15 +49,15 @@
 
 #import <UIKit/UIKit.h>
 
-@class KMLViewerViewController;
+@class KML2GViewController;
 
-@interface KMLViewerAppDelegate : NSObject <UIApplicationDelegate> {
+@interface KML2GAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    KMLViewerViewController *viewController;
+    KML2GViewController *viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet KMLViewerViewController *viewController;
+@property (nonatomic, retain) IBOutlet KML2GViewController *viewController;
 
 @end
 

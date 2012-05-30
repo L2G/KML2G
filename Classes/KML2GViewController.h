@@ -1,5 +1,5 @@
 /*
-     File: KMLViewerViewController.h
+     File: KML2GViewController.h
  Abstract: 
  Displays an MKMapView and demonstrates how to use the included KMLParser class to place annotations and overlays from a parsed KML file on top of the MKMapView.
  
@@ -52,7 +52,7 @@
 
 #import "KMLParser.h"
 
-@interface KMLViewerViewController : UIViewController {
+@interface KML2GViewController : UIViewController {
     IBOutlet MKMapView *map;
     KMLParser *kmlParser;
 }
