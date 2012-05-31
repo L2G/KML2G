@@ -43,6 +43,12 @@
 		28D7ACF70DDB3853001CB0EB /* KML2GViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KML2GViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* KML2G_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KML2G_Prefix.pch; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		467CDCB015772AE20061FA90 /* eo */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = eo; path = /Users/larry/work/GitHub/KML2G/eo.lproj/KML2GViewController.xib; sourceTree = "<absolute>"; };
+		467CDCB115772AE20061FA90 /* eo */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = eo; path = /Users/larry/work/GitHub/KML2G/eo.lproj/MainWindow.xib; sourceTree = "<absolute>"; };
+		467CDCB315772C620061FA90 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = /Users/larry/work/GitHub/KML2G/es.lproj/KML2GViewController.xib; sourceTree = "<absolute>"; };
+		467CDCB415772C620061FA90 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = /Users/larry/work/GitHub/KML2G/es.lproj/MainWindow.xib; sourceTree = "<absolute>"; };
+		467CDCB515772CA80061FA90 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = /Users/larry/work/GitHub/KML2G/fr.lproj/KML2GViewController.xib; sourceTree = "<absolute>"; };
+		467CDCB615772CA80061FA90 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = /Users/larry/work/GitHub/KML2G/fr.lproj/MainWindow.xib; sourceTree = "<absolute>"; };
 		533ECC0811F63EA00067A265 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KML2GViewController.xib; sourceTree = "<group>"; };
 		533ECC0A11F63EA00067A265 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		535BE74314B7C82C00969FF3 /* KML_Sample.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KML_Sample.kml; sourceTree = "<group>"; };
@@ -241,6 +247,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				533ECC0811F63EA00067A265 /* en */,
+				467CDCB015772AE20061FA90 /* eo */,
+				467CDCB315772C620061FA90 /* es */,
+				467CDCB515772CA80061FA90 /* fr */,
 			);
 			name = KML2GViewController.xib;
 			sourceTree = "<group>";
@@ -249,6 +258,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				533ECC0A11F63EA00067A265 /* en */,
+				467CDCB115772AE20061FA90 /* eo */,
+				467CDCB415772C620061FA90 /* es */,
+				467CDCB615772CA80061FA90 /* fr */,
 			);
 			name = MainWindow.xib;
 			sourceTree = "<group>";
